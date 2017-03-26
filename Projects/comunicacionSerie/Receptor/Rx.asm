@@ -19,14 +19,14 @@
     __CONFIG _CP_OFF & _WDT_OFF & _BODEN_ON & _PWRTE_ON &_INTOSC_OSC_NOCLKOUT & _MCLRE_ON & _LVP_OFF
 
 
-palabra     equ 0x20
-cont_p  	equ	0x21
-veces       equ 0x22
-w_aux       equ 0x23
-cont        equ 0x24
-flag        equ 0x25
-rcsta_aux   equ 0x26
-pos         equ 0x27
+    palabra     equ 0x20
+    cont_p  	equ	0x21
+    veces       equ 0x22
+    w_aux       equ 0x23
+    cont        equ 0x24
+    flag        equ 0x25
+    rcsta_aux   equ 0x26
+    pos         equ 0x27
 
     org     0x00
     goto    inicio
